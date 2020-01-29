@@ -1,0 +1,110 @@
+html, body{
+    margin: 0 auto;
+    font-family: 'Nunito', sans-serif;  
+}
+img{
+    width: 100%;
+}
+
+p, h1, ul{
+    margin: 0 auto;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    line-height: 2;
+    width: 60%;
+}
+
+#grouped-images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#site-name{
+    text-align: center;
+    font-size: 120%;
+}
+.clickableImage{
+    width: 23%;
+}
+.clickableImage:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+/*
+
+Modal code found from w3schools
+
+*/
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  }
+#img01{
+    max-height: 100vh;
+}
+  
+  /* Add Animation */
+  .modal-content, #caption {  
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  @-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+  }
+  
+  @keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+  }
+  
+  /* The Close Button */
+  .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: gray;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+/*
+
+End of section borrowed/editted from w3schools
+
+*/
+
+@media screen and (max-width: 600px) {
+    p, h1, ul{
+        width: 90%;
+    }
+    .persona{
+        width: 48%;
+    }
+    .modal {
+        padding-top: 100px;
+    }
+    .close:hover{
+        color: white;
+    }
+}
