@@ -4,6 +4,7 @@ html, body{
 }
 img{
     width: 100%;
+    max-height: 100%;
 }
 #site-content{
   margin-bottom: 1.5em;
@@ -42,6 +43,13 @@ a{
 }
 a:hover{
   font-weight: bold;
+}
+
+.mobile-only{
+  display: none;
+}
+.web-only{
+  display: block;
 }
 
 /*
@@ -114,6 +122,9 @@ End of section borrowed/editted from w3schools
     .persona{
         width: 48%;
     }
+    .clickableImage{
+        width: 48%;
+    }
     .modal {
         padding-top: 100px;
     }
@@ -122,5 +133,11 @@ End of section borrowed/editted from w3schools
     }
     .team-member{
       width: 100%;
+    }
+    .mobile-only{
+      display: block;
+    }
+    .web-only{
+      display: none;
     }
 }
