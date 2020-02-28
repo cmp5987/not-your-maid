@@ -31,6 +31,7 @@ p, h1, h3, ul, #team-info{
 }
 .clickableImage{
     width: 23%;
+    
 }
 .clickableImage:hover{
     opacity: 0.7;
@@ -50,6 +51,13 @@ a:hover{
 }
 .web-only{
   display: block;
+}
+
+video{
+  border-radius: 53px;
+  -webkit-box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.1);
+  -moz-box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.1);
+  box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.1);
 }
 
 /*
