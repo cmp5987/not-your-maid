@@ -9,7 +9,7 @@ img{
 #site-content{
   margin-bottom: 1.5em;
 }
-p, h1, h3, ul, #team-info{
+p, h1, h3, ul, #team-info, ol, ul{
     margin: 0 auto;
     margin-top: 1.5em;
     margin-bottom: 1.5em;
@@ -124,7 +124,7 @@ End of section borrowed/editted from w3schools
 */
 
 @media screen and (max-width: 600px) {
-    p, h1, h3, ul{
+    p, h1, h3, ul, ol{
         width: 90%;
     }
     .persona{
