@@ -17,7 +17,7 @@ p, h1, h3, ul, #team-info, ol, ul{
     width: 60%;
 }
 
-#grouped-images, #team-info{
+.grouped-images, #team-info{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
