@@ -9,12 +9,18 @@ img{
 #site-content{
   margin-bottom: 1.5em;
 }
-p, h1, h3, ul, #team-info, ol, ul{
+p, h1, h3, h4, #team-info, ol {
     margin: 0 auto;
     margin-top: 1.5em;
     margin-bottom: 1.5em;
     line-height: 2;
     width: 60%;
+}
+ul li{
+  list-style-type: none;
+}
+li{
+  padding-bottom: 10px;
 }
 
 .grouped-images, #team-info{
